@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\sjiam\\.ohos\\config\\auto_debug_personalDoc_com.stark.personaldoc_70086000190523123.cer",
+          "storePassword": "0000001B2F60D2F7244B8F96154CD6D7285090643FDF67D78F054524A03EC4432667A49BADF2ABD1C47A13",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B14CD021643F148156A030883BCE9AEEEB1F73505BA4FABE749E12E11FCBFE41A70DBF7B354A0CA",
+          "profile": "C:\\Users\\sjiam\\.ohos\\config\\auto_debug_personalDoc_com.stark.personaldoc_70086000190523123.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\sjiam\\.ohos\\config\\auto_debug_personalDoc_com.stark.personaldoc_70086000190523123.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
